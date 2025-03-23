@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+}
+.title{
+   text-align: center;
+   text-transform: uppercase;
+   border-bottom: 2px solid  #ff3115;
+    display: inline-block;
+}
+.head{
+    margin-top: 50px;
+    text-align: center;
+}
+.second h1{
+    font-size: 25px;
+    color: #505050;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+.second p{
+    font-size: 13px;
+    color: #505050;
+    line-height: 25px;
+    font-family: 'comic sans ms', sans-serif;
+    font-weight: 300;
+}
+.img{
+  position: relative;
+}
+.first img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  
+}
+
+.hover{
+    width: 500px;
+    height: 510px;
+    position: absolute;
+    top: 0;
+    transition: all linear .1s;
+
+}
+.hover:hover{
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+}

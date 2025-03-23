@@ -1,0 +1,24 @@
+.containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.containers h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.head a{
+    text-decoration: none;
+    color: #505050;
+    font-weight: 400;
+}
+.head a:hover{
+    color: #ff3115;
+}
+.our{
+    color: #ff3115;
+}

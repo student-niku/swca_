@@ -1,0 +1,59 @@
+
+header {
+padding: 10px 100px;
+display: flex ;
+justify-content: space-between;
+}
+.div1 img {
+    width: 150px ;
+    height: 150px;
+}
+.div2 {
+   display: flex;
+   gap: 50px;
+}
+.div2 .maildiv{
+    display: flex;
+    line-height: 20px;
+}
+.div2 .phonediv{
+    display: flex;
+}
+.mail-icon{
+    display: flex;
+    margin-top: px;
+    margin-right: 10px;
+    font-size: 40px;
+    color: #ff3115;
+}
+.email a{
+    text-decoration: none;
+    color: #505050;
+    font-weight: 300;
+    transition: all linear .3s;
+}
+.email a:hover{
+    color: #ff3115;
+} 
+@media (max-width:900px) {
+    .div2{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.div3{
+    display: flex;
+    gap: 20px;
+}
+.button1 button {
+    background-color: #ff3115;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }

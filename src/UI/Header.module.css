@@ -1,0 +1,33 @@
+.header{
+    background-color: #f218d4;
+    display: flex;
+    padding: 20px 100px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.headercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+@media (max-width:1100px) {
+    .headercard{
+        width: 70%;
+        height: 90vh;
+        position: absolute;
+    }
+}
+ 
+.header a{
+    text-decoration: none;
+    color: #fff;
+    transition: all linear .5s;
+}
+.header a:hover{
+    color: yellow;
+}

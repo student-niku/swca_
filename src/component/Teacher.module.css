@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 100px;margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.head{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .head h1{
+    border-bottom:2px solid #ff3115 ;
+    display: inline-block;
+  }
+  .cardrow{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+  }
+  .card{
+    width: 285px;
+    height: 360px;
+    padding: 25px;
+    position: relative;
+    cursor: pointer;
+  }
+  .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .detailcard{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    background: rgba(0, 0, 0, .7);
+    bottom: 24.5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+  .detailcard h1{
+    font-size: 16px;
+  }
+  .detailcard p{
+    font-size: .7rem;
+  }
+  .hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+     left: 0;
+    top: 0;
+     padding: 25px;
+    transition:  all linear .3s;
+  }
+  
+  .card:hover.hover{
+    top: 0;
+  }
+  .hovercenter{
+    width: 100%;
+    height: 100%;
+    border: #ff3115 5px solid;
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+  }
+.hovercenter h1{
+    font-size: 18px;
+}
+.hovercenter p{
+    font-size: .8rem;
+    border-bottom: #ff3115 2px solid;
+}
