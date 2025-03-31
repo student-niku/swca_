@@ -1,5 +1,7 @@
+import { FooterCompo } from "../component/FooterCompo";
+
 export const Footer = () => {
     return ( 
-        <h1>Footers</h1>
+        <FooterCompo></FooterCompo>
     );
 }

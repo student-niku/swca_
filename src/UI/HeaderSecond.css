@@ -42,6 +42,7 @@ justify-content: space-between;
     header{
         flex-direction: column;
         align-items: center;
+        padding: 20px 20px;
     }
 }
 .div3{

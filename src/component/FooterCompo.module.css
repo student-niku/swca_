@@ -1,0 +1,88 @@
+.container{
+    margin-top: 100px;
+    padding: 20px 100px;
+    position: relative;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.imgcontainer img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.adress{
+    display: flex;
+    background-color: #4b49ac;
+    justify-content: space-between;
+    padding: 50px 70px;
+    border-radius: 30px;
+   position: absolute;     
+   left: 50%;
+   top: -100px;
+   transform: translate(-50% );
+    width: 90%;
+}
+@media screen and (max-width: 768px) {
+    .adress{
+        flex-direction: column;
+        padding: 10px 10px;
+        width: 100%;
+        top: -50px;
+        align-items: center;
+    }
+    #border{
+       border: none;
+    } 
+       
+       .adress .firstAdress{
+        width: 100%;
+        margin-bottom: 20px;  
+}
+      
+    }  
+   
+.adress .firstAdress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 33%;
+}
+.firstAdressData{
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+}
+.firstAdressData p{
+    color: #ffffffb3;
+    font-size: .8rem;
+}
+.firstAdressIcon{
+    font-size: 30px;
+    color: #ff3115;
+}
+#border{
+    border-right: 1px solid #fff;}
+
+.finalcontainer{
+    background-color: #000;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    padding: 20px 100px;
+}
+
+
+
+  .footer {
+    top: 70px;
+  }

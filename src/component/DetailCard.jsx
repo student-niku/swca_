@@ -3,12 +3,24 @@ import { FaBook } from "react-icons/fa";
 import { RiBookShelfLine } from "react-icons/ri";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa6";
-
+import { useGSAP } from "@gsap/react";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import gsap from "gsap";
+gsap.registerPlugin(ScrollTrigger);
 export const DetailCard = () =>{
+    useGSAP(()=>{
+        gsap.from(".first",{
+            x:-30,
+            opacity:0,
+            duration:1,
+            delay:1,
+            scrollTrigger:'.first'
+        })
+    })
    return<>
         <div className={styles.container}>
             <div className={styles.card_div}>
-                <div className={styles.card}>
+                <div className={styles.card} id='first'>
                     <div className={styles.circle_card}>
                       <FaBook />
                     </div>
