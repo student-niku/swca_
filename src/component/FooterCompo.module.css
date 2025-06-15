@@ -15,6 +15,18 @@
     height: 200px;
     margin: 10px;
 }
+.imgcontainerres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+
+}
+.imgcontainerres img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
 .adress{
     display: flex;
     background-color: #4b49ac;
@@ -35,6 +47,9 @@
         top: -50px;
         align-items: center;
     }
+    .imgcontainerres{
+        display: block;
+    }
     #border{
        border: none;
     } 
@@ -43,8 +58,18 @@
         width: 100%;
         margin-bottom: 20px;  
 }
-      
-    }  
+ 
+    .imgcontainer{
+        display: none;
+        
+    }
+    .firstAdress{
+        width: 100%;
+    }
+    .firstAdressData{
+        text-align: center;
+    }
+}
    
 .adress .firstAdress{
     display: flex;
@@ -69,8 +94,7 @@
     font-size: 30px;
     color: #ff3115;
 }
-#border{
-    border-right: 1px solid #fff;}
+
 
 .finalcontainer{
     background-color: #000;

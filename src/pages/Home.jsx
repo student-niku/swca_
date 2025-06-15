@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeroSection } from '../component/HeroSection'
-import { DetailCard } from '../component/DetailCard'
+import  DetailCard  from '../component/DetailCard'
 import { About } from '../component/About'
 import Accordion from '../component/Accordion'
 import  Course  from '../component/Course'

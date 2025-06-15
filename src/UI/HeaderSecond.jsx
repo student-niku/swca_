@@ -36,7 +36,7 @@ export const HeaderSecond = () => {
             </div>
             <div className="div3">
                 <div className="button1">
-                   <NavLink to="/studentlogin"><button>student login</button></NavLink>
+                   <NavLink to="/auth"><button>student login</button></NavLink>
                 </div>
                 <div className="button1">
                     <NavLink to="/instutetlogin"><button>Instutet login</button></NavLink>

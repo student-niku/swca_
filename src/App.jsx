@@ -11,94 +11,97 @@ import Franchise from "./pages/Franchise"
 import {Gallery} from "./pages/Gallery"
 import {Job} from "./pages/Job"
 import {Services} from "./pages/Services"
-import {StudentLogin} from "./pages/StudentLogin"
+import React from "react";
 import "./App.css"
-import { InstutetGogin } from "./pages/InstutetGogin";
 import { Enquiry } from "./pages/Enquiry";
 import { CoureseDetail } from "./pages/CourseDetail";
-
-
+import  LoginPage  from "./pages/LoginPage";
+import  InstituteDashboard  from "./pages/InstituteDashboard";
+import  StudentDashboard  from "./pages/StudentDashboard";
 function App() {
 
-  
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <AppLayout />,
-      errorElement : <ErrorPage />,
-      children : [
-        {
+  const router = createBrowserRouter(
+    [
+      {
         path: "/",
-        element: <Home />
-        },
-        {
-          path: "/about",
-          element: <About />
-          
-        },
+        element: <AppLayout />,
+        errorElement: <ErrorPage />,
+        children: [
+          {
+            index: true,
+            element: <Home />
+          },
+          {
+            path: "about",
+            element: <About />
+          },
+          {
+            path: "achievers",
+            element: <Achievers />
+          },
+          {
+            path: "certifications",
+            element: <Certifications />
+          },
+          {
+            path: "courses",
+            element: <Courses />
+          },
+          {
+            path: "franchise",
+            element: <Franchise />
+          },
+          {
+            path: "gallery",
+            element: <Gallery />
+          },
+          {
+            path: "job",
+            element: <Job />
+          },
+          {
+            path: "services",
+            element: <Services />
+          },
+          {
+            path: "enquiry",
+            element: <Enquiry />
+          },
+          {
+            path: "coursedetail",
+            element: <CoureseDetail/>
+          },
+          {
+            path: "contact",
+            element: <Contact />
+          },
+         
+        ]
         
-        {
-          path: "/achievers",
-          element: <Achievers />
-        },
-        {
-          path: "/certifications",
-          element: <Certifications />
-        },
-        {
-          path: "/courses",
-          element: <Courses />
-        },
-        {
-          path: "/franchise",
-          element: <Franchise/>
-        },
-        {
-          path: "/gallely",
-          element: <Gallery />
-        },
-        {
-          path: "/job",
-          element: <Job />
-        },
-        {
-          path: "/services",
-          element: <Services />
-        },
-        {
-          path: "/enquiry",
-          element: <Enquiry />
-        },
-        {
-          path: "/coursedetail",
-          element: <CoureseDetail/>
-        },
-        {
-          path: "/contact",
-          element: <Contact />
-        }
-      
- 
-    ]
-  
-    },{
-      path: "/studentlogin",
-      element: <StudentLogin />
-    }
-    ,{
-      path: "/instutetlogin",
-      element : <InstutetGogin/>
-    }
-    ])
+      },
+
+      {
+        path: "/Auth",
+        element: <LoginPage />
+      },
+      {
+        path: "/institute",
+        element: <InstituteDashboard />,
+      },
+      {
+        path: "Student",
+        element: <StudentDashboard />, // Assuming Student Dashboard is similar to Institute Dashboard
+      }
     
-    ;
+    ],
+   
+  );
+
   return (
     <>
       <RouterProvider router={router} />
-
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,6 @@
 {
   "name": "swca_project",
-  "homepage": "https://github.com/student-niku/swca_",
+  "homepage": "https://github.com/student-niku/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "firebase": "^11.9.0",
     "gsap": "^3.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

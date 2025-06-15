@@ -24,7 +24,9 @@
 .header a:hover{
     color: yellow;
 }
-
+.header.a:active:hover{
+    color: yellow;
+}
 
 @media (max-width: 992px){
     .header{

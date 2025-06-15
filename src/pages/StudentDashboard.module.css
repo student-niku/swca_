@@ -1,0 +1,116 @@
+/* Reset and base styles */
+.dashboard {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.time-his {
+  font-size: 1.3rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Profile box */
+.profile {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #007bff;
+}
+
+.profile p {
+  font-size: 1rem;
+  margin: 6px 0;
+  color: #444;
+}
+
+.profile strong {
+  color: #000;
+}
+
+/* Attendance List */
+.attendanceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attendanceList li {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #e9f0ff;
+  color: #003366;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.attendanceList li:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 16px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .profile p {
+    font-size: 0.95rem;
+  }
+
+  .attendanceList li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 12px;
+  }
+
+  .profile {
+    padding: 12px;
+  }
+
+  .attendanceList li {
+    padding: 8px 10px;
+  }
+}

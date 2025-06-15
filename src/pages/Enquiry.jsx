@@ -1,5 +1,5 @@
 export const Enquiry = ()=>{
     return<>
-      <h1>CourseDetail page</h1>
+      <h1>enquiry</h1>
     </>
 }
