@@ -1,6 +1,7 @@
 {
   "name": "swca_project",
-  "homepage": "https://github.com/student-niku/",
+  "homepage": "https://student-niku.github.io/swca_/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
