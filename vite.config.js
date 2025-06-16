@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// ✅ Yeh line me mode ko destructure kar rahe hain
-export default defineConfig(({ mode }) => {
-  return {
-    base: mode === 'production' ? '/swca_/' : '/',
-    plugins: [react()],
-  }
-})
+// ✅ Yeh function syntax sahi hai, yeh dono mode handle karega
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/swca_/' : '/',
+  plugins: [react()],
+}))
+
