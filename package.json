@@ -1,7 +1,6 @@
 {
   "name": "swca_",
-  "homepage": "https://student-niku.github.io/swca_/",
-
+  "homepage": "https://student-niku.github.io/swca_",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -21,6 +20,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.3.0",
+    "react-toastify": "^11.0.5",
     "scrolltrigger": "^1.0.1",
     "swiper": "^11.2.5"
   },
