@@ -24,7 +24,10 @@
 .header a:hover{
     color: yellow;
 }
-.header.a:active:hover{
+.header a:active{
+    color: yellow;
+}
+.header a:active:hover{
     color: yellow;
 }
 
@@ -32,5 +35,14 @@
     .header{
         display: none; 
     }
-
 }
+/* 
+}.menu a:hover{
+  color: #4169E1;
+}
+.menu a.active{
+  color: #4169E1;
+}
+menu a.active:hover{
+  color: #4169E1;
+} */

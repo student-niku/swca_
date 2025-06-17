@@ -58,6 +58,13 @@
 .active{
    right: 0;
 }
+
 .menu a:hover{
-    color: yellow;
+  color: #4169E1;
+}
+.menu a.active{
+  color: #4169E1;
+}
+menu a.active:hover{
+  color: #4169E1;
 }

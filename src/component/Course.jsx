@@ -52,7 +52,7 @@ const Course = () => {
 
   return (
     <div className="swiper-container">
-      <div className="head">
+      <div className="head" id="head">
           <h1>OUR POPULAR COURSES</h1>
       </div>
       <Swiper

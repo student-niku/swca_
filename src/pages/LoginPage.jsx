@@ -55,6 +55,7 @@ export default function LoginPage() {
     <div className="login-container">
       <ToastContainer position="top-center" />
       <form className="login-card" onSubmit={handleLogin}>
+        <div className='login'><img src="../public/swca.jpg" alt="" /></div>
         <h2>{isRegister ? 'Register' : 'Login'}</h2>
 
         <select onChange={(e) => setType(e.target.value)} value={type}>

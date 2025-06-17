@@ -56,10 +56,13 @@
     top: 0;
      padding: 25px;
     transition:  all linear .3s;
+    opacity: 0;
+    z-index: 0;
   }
   
-  .card:hover.hover{
-    top: 0;
+  .card img:hover.hover{
+    opacity: 2;
+    z-index: 2;
   }
   .hovercenter{
     width: 100%;

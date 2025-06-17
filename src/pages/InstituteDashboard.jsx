@@ -86,6 +86,10 @@ export default function InstituteDashboard() {
   };
 
   return <>
+  <div className="institute-dashboard">
+  <img src="../public/swca.jpg" alt="SWCA Logo" className='logo' />
+      <h2 className='institute-head'>Wel come SWCA Institute dashboard</h2>
+  </div>
     <h1 className='head'>SWCA DASHBOARD</h1>
     <div className="dashboard">
       <h2>Add a New Student</h2>

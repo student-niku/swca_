@@ -18,6 +18,7 @@ import { CoureseDetail } from "./pages/CourseDetail";
 import  LoginPage  from "./pages/LoginPage";
 import  InstituteDashboard  from "./pages/InstituteDashboard";
 import  StudentDashboard  from "./pages/StudentDashboard";
+import { Download } from "./pages/Download";
 function App() {
 
   const router = createBrowserRouter(
@@ -74,6 +75,10 @@ function App() {
           {
             path: "contact",
             element: <Contact />
+          },
+          {
+            path: "download",
+            element: <Download />
           },
          
         ]

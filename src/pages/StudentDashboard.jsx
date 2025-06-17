@@ -54,8 +54,13 @@ export default function StudentDashboard() {
     return () => unsubscribe();
   }, []);
 
-  return (
+  return <>   
+   <div className={styles.studentDashboard}>
+         <img src="../public/swca.jpg"/>
+        <h2 className={styles.studentHead}>Wel come SWCA Student dashboard</h2>
+  </div>
     <div className={styles.dashboard}>
+
       <h2 className={styles.h2}>Student Dashboard</h2>
       {studentData ? (
         <div className={styles.profile}>
@@ -77,5 +82,6 @@ export default function StudentDashboard() {
         ))}
       </ul>
     </div>
-  );
+  </>
+
 }

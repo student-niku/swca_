@@ -13,7 +13,6 @@
 .imgcontainer img{
     width: 200px;
     height: 200px;
-    margin: 10px;
 }
 .imgcontainerres{
     display: flex;
@@ -44,11 +43,13 @@
         flex-direction: column;
         padding: 10px 10px;
         width: 100%;
-        top: -50px;
+        top: -10%;
         align-items: center;
+        border-radius:0px;
     }
     .imgcontainerres{
         display: block;
+        justify-self: center;
     }
     #border{
        border: none;
@@ -69,6 +70,25 @@
     .firstAdressData{
         text-align: center;
     }
+ 
+    .footer {
+        width: 100%;
+        flex-direction: column;
+        padding: 5px 10px;
+        padding-top: 100px;
+    }
+    .footerdiv1{
+        width: 100%;
+    }
+    .footerdiv2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footerlinks{
+        align-items: center;
+        gap: 20px;
+    }
+
 }
    
 .adress .firstAdress{
@@ -108,5 +128,98 @@
 
 
   .footer {
-    top: 70px;
+    padding-top: 100px;
+    display: flex;
+    text-align: left;
+  }
+  .footerdiv1{
+    width: 50%;
+    color: #fff;
+  }
+    .footerdiv1 h2{
+        border-bottom: #ff3115  1px solid;
+        display: inline-block;
+    }
+  .footerlinks{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+    padding-left: 10px;
+  }
+  .footerdiv2 h2{
+    color: #fff;
+    border-bottom: #ff3115  1px solid;
+    display: inline-block;
+  }
+  .footerlinks1{
+     display: flex;
+     flex-direction: column;
+  }
+  .footerlinks2{
+     display: flex;
+     flex-direction: column;
+  }
+  .footerlinks1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight:400;
+    transition: all 0.3s ease;
+  }
+  .footerlinks2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+  }
+  .footerlinks1 a:hover, .footerlinks2 a:hover{
+    color: #ff3115;
+  }
+  .footericons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .footericons a{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    background-color: #ffffff26;
+    border-radius: 100%; 
+    transition: all 0.3s ease;
+  }
+  .footericons a:hover{
+    background-color: #ff3115;
+  }
+
+  .copy{
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    }
+  .copy p span a{
+    text-decoration: none;
+    color: #ff3115;
+    font-weight: 600;
+  }
+  @media (max-width: 768px) {
+      .finalcontainer{
+        padding: 10px 10px;
+        width: 100%;
+        height: 100vh;
+    }
+    .footer {
+
+        padding-top: 300px;
+    }
+    
   }
