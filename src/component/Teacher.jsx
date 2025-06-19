@@ -3,17 +3,17 @@ import styles from "./Teacher.module.css"
 export const Teacher = ()=>{
     const data =[
         {
-            src:"../public/ADT.jpg",
+            src:"/public/ADT.jpg",
             position :"Directer",
             Name : "ADARSH KUMAR"
         },
         {
-            src:"../public/NST.jpg",
+            src:"/public/NST.jpg",
             position :"Examination Controller",
             Name : "NAVIN SHARMA"
         },
         {
-            src:"../public/PKT.jpg",
+            src:"/public/PKT.jpg",
             position :"Computer Teacher",
             Name : "PRIYANKA KUMARI"
         },

@@ -9,9 +9,9 @@ import styles from "./HeroSectionImg.module.css"; // CSS Module Import
 
 export const HeroSection = () => {
     const images = [
-        "../public/slider_1.jpg",
-        "../public/slider_2.jpg",
-        "../Public/slider_3.jpg",
+        "/public/slider_1.jpg",
+        "/public/slider_2.jpg",
+        "/Public/slider_3.jpg",
       ];
     return<>
      <div className={styles.sliderContainer}>

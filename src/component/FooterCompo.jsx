@@ -36,14 +36,14 @@ export const FooterCompo =()=>{
     return<>
     <div className={s.container}>
        <div className={s.imgcontainer}>
-            <img src="../public/swca.jpg" alt="" />
-            <img src="../public/swca.jpg" alt="" />
-            <img src="../public/swca.jpg" alt="" />
-            <img src="../public/swca.jpg" alt="" />
+            <img src="/public/swca.jpg" alt="" />
+            <img src="/public/swca.jpg" alt="" />
+            <img src="/public/swca.jpg" alt="" />
+            <img src="/public/swca.jpg" alt="" />
               
        </div> 
        <div className={s.imgcontainerres}>
-        <img src="../public/swca.jpg" alt="" />
+        <img src="/public/swca.jpg" alt="" />
         </div> 
     </div>
     <div className={s.finalcontainer}>

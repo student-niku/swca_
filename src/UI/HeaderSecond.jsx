@@ -18,7 +18,7 @@ export const HeaderSecond = () => {
     return <>
         <header>
             <div className="div1">
-                <img src="../public/swca.jpg" alt="" />
+                <img src="/public/swca.jpg" alt="" />
             </div>
             <div className="div2">
             <div className="maildiv">

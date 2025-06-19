@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, BrowserRouter } from "react-router-dom";
 import {AppLayout} from "./AppLayout"
 import {Home} from "./pages/Home"
 import {About} from "./pages/About"
@@ -104,7 +104,7 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+        <RouterProvider router={router} />
     </>
   );
 }

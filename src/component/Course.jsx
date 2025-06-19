@@ -17,7 +17,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.2500.00",
       code:"Course Code : S-ADCA",
       cutfee:" 8500.00/-",
-      src : "../public/ADCA.jpg"
+      src : "/public/ADCA.jpg"
     },
     { title: "CERIFICATE IN ADVANCE EXCEL ( S-01 )",
       eqr: "ENQUIRY NOW" ,
@@ -26,7 +26,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : S-01",
       cutfee:" 2500.00/-",
-      src :"../public/adexcel.jpg"
+      src :"/public/adexcel.jpg"
     },
     {title: "DIPLOMA IN COMPUTER APPLICATION ( M-DCA01 )",
       eqr: "ENQUIRY NOW" ,
@@ -35,7 +35,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : M-DCA01",
       cutfee:" 4500.00/-",
-      src :"../public/DCA.jpg"
+      src :"/public/DCA.jpg"
     },
     { title: "TYPING                       ",
       eqr: "ENQUIRY NOW" ,
@@ -44,7 +44,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : T-TY",
       cutfee:" 4500.00/-",
-      src :"../public/Typing.jpg"
+      src :"/public/Typing.jpg"
     },
     
    
