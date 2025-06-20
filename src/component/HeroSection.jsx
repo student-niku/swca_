@@ -6,12 +6,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import styles from "./HeroSectionImg.module.css"; // CSS Module Import
-
+import Img1 from "../assets/slider_1.jpg";
+import Img2 from "../assets/slider_2.jpg";
+import Img3 from "../assets/slider_3.jpg";
 export const HeroSection = () => {
     const images = [
-        "/public/slider_1.jpg",
-        "/public/slider_2.jpg",
-        "/Public/slider_3.jpg",
+        Img1,
+        Img2,
+        Img3,
       ];
     return<>
      <div className={styles.sliderContainer}>

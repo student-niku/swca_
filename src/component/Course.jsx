@@ -7,7 +7,10 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { MdDoubleArrow } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import  "./Course.css"
-
+import Typing from "../assets/Typing.jpg";
+import DCA from "../assets/DCA.jpg";
+import ADCA from "../assets/adca.jpg";
+import ADExcel from "../assets/adexcel.jpg";
 const Course = () => {
   const data = [
     { title: "ADVANCE DIPLOMA IN COMPUTER APPLICATION ( S-ADCA )",
@@ -17,7 +20,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.2500.00",
       code:"Course Code : S-ADCA",
       cutfee:" 8500.00/-",
-      src : "/public/ADCA.jpg"
+      src : ADCA
     },
     { title: "CERIFICATE IN ADVANCE EXCEL ( S-01 )",
       eqr: "ENQUIRY NOW" ,
@@ -26,7 +29,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : S-01",
       cutfee:" 2500.00/-",
-      src :"/public/adexcel.jpg"
+      src :ADExcel
     },
     {title: "DIPLOMA IN COMPUTER APPLICATION ( M-DCA01 )",
       eqr: "ENQUIRY NOW" ,
@@ -35,7 +38,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : M-DCA01",
       cutfee:" 4500.00/-",
-      src :"/public/DCA.jpg"
+      src :DCA
     },
     { title: "TYPING                       ",
       eqr: "ENQUIRY NOW" ,
@@ -44,7 +47,7 @@ const Course = () => {
       minfee: "Minimum Amount To Pay : Rs.500.00",
       code:"Course Code : T-TY",
       cutfee:" 4500.00/-",
-      src :"/public/Typing.jpg"
+      src :Typing
     },
     
    

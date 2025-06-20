@@ -10,7 +10,7 @@ import {
 import { db, auth } from '../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import './InstituteDashboard.css';
-
+import Swca from '../assets/Swca.jpg';
 export default function InstituteDashboard() {
   const [instituteId, setInstituteId] = useState('');
   const [students, setStudents] = useState([]);
@@ -87,7 +87,7 @@ export default function InstituteDashboard() {
 
   return <>
   <div className="institute-dashboard">
-  <img src="../public/swca.jpg" alt="SWCA Logo" className='logo' />
+  <img src={Swca} alt="SWCA Logo" className='logo' />
       <h2 className='institute-head'>Wel come SWCA Institute dashboard</h2>
   </div>
     <h1 className='head'>SWCA DASHBOARD</h1>

@@ -7,6 +7,7 @@ import {
 } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
+import Swca from '../assets/Swca.jpg';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -55,7 +56,7 @@ export default function LoginPage() {
     <div className="login-container">
       <ToastContainer position="top-center" />
       <form className="login-card" onSubmit={handleLogin}>
-        <div className='login'><img src="../public/swca.jpg" alt="" /></div>
+        <div className='login'><img src={Swca} alt="" /></div>
         <h2>{isRegister ? 'Register' : 'Login'}</h2>
 
         <select onChange={(e) => setType(e.target.value)} value={type}>

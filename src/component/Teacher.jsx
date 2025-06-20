@@ -1,19 +1,21 @@
 import styles from "./Teacher.module.css"
-
+import Adt from "../assets/ADT.jpg"
+import Nst from "../assets/NST.jpg"
+import Pkt from "../assets/PKT.jpg"
 export const Teacher = ()=>{
     const data =[
         {
-            src:"/public/ADT.jpg",
+            src:Adt,
             position :"Directer",
             Name : "ADARSH KUMAR"
         },
         {
-            src:"/public/NST.jpg",
+            src:Nst,
             position :"Examination Controller",
             Name : "NAVIN SHARMA"
         },
         {
-            src:"/public/PKT.jpg",
+            src:Pkt,
             position :"Computer Teacher",
             Name : "PRIYANKA KUMARI"
         },

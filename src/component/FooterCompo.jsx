@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa6";
-
+import Swca from '../assets/Swca.jpg';
 
 const adressData = [
     {
@@ -36,14 +36,14 @@ export const FooterCompo =()=>{
     return<>
     <div className={s.container}>
        <div className={s.imgcontainer}>
-            <img src="/public/swca.jpg" alt="" />
-            <img src="/public/swca.jpg" alt="" />
-            <img src="/public/swca.jpg" alt="" />
-            <img src="/public/swca.jpg" alt="" />
+            <img src={Swca} alt="" />
+            <img src={Swca} alt="" />
+            <img src={Swca} alt="" />
+            <img src={Swca} alt="" />
               
        </div> 
        <div className={s.imgcontainerres}>
-        <img src="/public/swca.jpg" alt="" />
+        <img src={Swca} alt="" />
         </div> 
     </div>
     <div className={s.finalcontainer}>

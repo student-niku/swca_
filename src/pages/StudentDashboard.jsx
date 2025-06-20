@@ -9,7 +9,7 @@ import {
 } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
 import styles from './StudentDashboard.module.css';
-
+import Swca from '../assets/Swca.jpg';
 export default function StudentDashboard() {
   const [studentData, setStudentData] = useState(null);
   const [attendanceList, setAttendanceList] = useState([]);
@@ -56,7 +56,8 @@ export default function StudentDashboard() {
 
   return <>   
    <div className={styles.studentDashboard}>
-         <img src="../public/swca.jpg"/>
+         <img src={Swca} alt='swca' />
+
         <h2 className={styles.studentHead}>Wel come SWCA Student dashboard</h2>
   </div>
     <div className={styles.dashboard}>

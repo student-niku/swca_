@@ -1,4 +1,6 @@
 import styles from './About.module.css';
+import Swca from '../assets/Swca.jpg';
+
 export const About = ()=>{
     return<>
         <div className={styles.head}>
@@ -7,7 +9,7 @@ export const About = ()=>{
         <div className={styles.container}>
             <div className={styles.first}>
                 <div className={styles.img}>
-                    <img src="/public/swca.jpg" alt="" />
+                    <img src={Swca} alt="" />
                     <div className={styles.hover}></div>
                 </div>
             </div>

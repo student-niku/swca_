@@ -4,7 +4,8 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 import  './HeaderSecond.css';
 import { NavLink } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
-import { gsap } from 'gsap';    
+import { gsap } from 'gsap';
+import Swca from '../assets/Swca.jpg';    
 export const HeaderSecond = () => {
     useGSAP(()=>{
         gsap.from('.email p',{
@@ -18,7 +19,7 @@ export const HeaderSecond = () => {
     return <>
         <header>
             <div className="div1">
-                <img src="/public/swca.jpg" alt="" />
+                <img src={Swca} alt="" />
             </div>
             <div className="div2">
             <div className="maildiv">
